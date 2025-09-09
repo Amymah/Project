@@ -18,9 +18,9 @@ pipeline {
         stage('Run Python Files') {
             steps {
                 // Run your Python scripts
-                bat 'NestedframeFunc1.py'
-                bat 'NestedframeFunc2.py'
-                bat 'SwitchingWindows.py'
+                bat 'python NestedframeFunc1.py'
+                bat 'python NestedframeFunc2.py'
+                bat 'python SwitchingWindows.py'
             }
         }
     }
