@@ -20,7 +20,6 @@ pipeline {
                 // Run your Python scripts
                 bat 'python NestedframeFunc1.py'
                 bat 'python NestedframeFunc2.py'
-                bat 'python SwitchingWindows.py'
             }
         }
     }
