@@ -44,6 +44,7 @@ def main():
     print("the text inside the child frame is: ",text)
 
     #go back from the child frame
+    #child frame
     driver.switch_to.parent_frame()
     print("switched back to the parent frame")
 
